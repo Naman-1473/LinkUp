@@ -11,7 +11,7 @@ const UserImage = ({ image, size = "60px" }) => {
                 width={size}
                 height={size}
                 alt="user"
-                src={`https://linkup-1.onrender.com/assets/${image}`}
+                src={`https://linkup-3.onrender.com/assets/${image}`}
             />
         </Box>
     );

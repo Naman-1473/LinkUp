@@ -50,7 +50,7 @@ const MyPostWidget = ({ picturePath }) => {
             formData.append("picturePath", image.name);
         }
 
-        const response = await fetch(`https://linkup-1.onrender.com/posts`, {
+        const response = await fetch(`https://linkup-3.onrender.com/posts`, {
             method: "POST",
             headers: { Authorization: `Bearer ${token}` },
             body: formData,
