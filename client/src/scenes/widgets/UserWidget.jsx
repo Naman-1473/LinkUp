@@ -23,7 +23,7 @@ const UserWidget = ({ userId, picturePath }) => {
     const main = palette.neutral.main;
 
     const getUser = async () => {
-        const response = await fetch(`http://localhost:8000/users/${userId}`,
+        const response = await fetch(`https://linkup-1.onrender.com/users/${userId}`,
             {
                 method: "GET",
                 headers: {

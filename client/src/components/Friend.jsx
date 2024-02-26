@@ -26,7 +26,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
 
     const patchFriend = async () => {
         const response = await fetch(
-            `http://localhost:8000/${_id}/${friendId}`,
+            `https://linkup-1.onrender.com/${_id}/${friendId}`,
             {
                 method: "PATCH",
                 headers: {
